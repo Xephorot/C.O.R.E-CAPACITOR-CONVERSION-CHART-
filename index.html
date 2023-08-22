@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de capacitadores</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="mt-3 mb-3 text-center">Calculadora de capacitadores</h1>
+        <table class="table table-bordered rounded-table">
+          <tr>
+            <td class="center-label"><label for="pF">Picofarad:</label></td>
+          </tr>
+          <tr>
+            <td class="input-container">
+              <input type="number" id="pF" onclick="clearInputs()" class="form-control">
+              <span class="unit-label">pF</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="center-label"><label for="nF">Nanofarad:</label></td>
+          </tr>
+          <tr>
+            <td class="input-container">
+              <input type="number" id="nF" onclick="clearInputs()" class="form-control">
+              <span class="unit-label">nF</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="center-label"><label for="uF">Microfarad:</label></td>
+          </tr>
+          <tr>
+            <td class="input-container">
+              <input type="number" id="uF" onclick="clearInputs()" class="form-control">
+              <span class="unit-label">uF</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="center-label"><label for="F">Farad:</label></td>
+          </tr>
+          <tr>
+            <td class="input-container">
+              <input type="number" id="F" onclick="clearInputs()" class="form-control">
+              <span class="unit-label">F</span>
+            </td>
+          </tr>
+        </table>
+        <button onclick="showResult()" class="btn btn-primary">Calcular</button>
+      </div>
+      <div class="col-md-4 d-flex align-items-center">
+        <img src="public/images/capacitance-conversion-table.png" alt="Imagen descriptiva" class="img-fluid, image-large">
+      </div>
+    </div>
+  </div>
+
+  <script src="functions.js"></script>
+  <script src="print.js"></script>
+</body>
+</html>

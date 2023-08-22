@@ -1,0 +1,17 @@
+.image-large {
+    width: 170%;
+}
+.rounded-table {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.center-label {
+    text-align: center;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+}
+.unit-label {
+    margin-left: 5px;
+}
