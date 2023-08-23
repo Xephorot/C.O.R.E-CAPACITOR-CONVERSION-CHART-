@@ -1,0 +1,36 @@
+/* Estilos para las tablas */
+.table {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table th, .table td {
+    border: none;
+    font-size: 14px; /* Ajusta el tamaño de fuente aquí */
+}
+.table thead th {
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-align: center;
+    font-size: 16px; /* Ajusta el tamaño de fuente aquí */
+}
+.table tbody td {
+    background-color: white;
+    color: #343a40;
+    text-align: center;
+}
+.table tbody td:last-child {
+    background-color: lightblue;
+}
+
+/* Estilos para el div con clase "container" */
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px; /* Opcional: Agrega espacio interno para separar el contenido del borde */
+}
+
+/* Tamaño de fuente para el contenido dentro del div con clase "container" */
+.container h3, .container td {
+    font-size: 18px; /* Ajusta el tamaño de fuente aquí */
+}

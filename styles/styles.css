@@ -1,17 +1,23 @@
+/* Estilos para la tabla y el botón */
+.rounded-table {
+    margin: 0 auto; /* Centraliza horizontalmente la tabla */
+    margin-bottom: 20px; /* Agrega un espacio entre la tabla y el botón */
+    text-align: center; /* Centra el contenido de la tabla */
+    padding: 20px; /* Agrega espacio interno a la tabla */
+}
+
+.btn-primary {
+    display: block; /* Hace que el botón ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centraliza horizontalmente el botón */
+}
+
+/* Agrega un espacio superior al iframe */
+iframe {
+    margin-top: 20px;
+}
+
+/* Agrega el resto de tus estilos aquí */
 .image-large {
     width: 150%;
 }
-.rounded-table {
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-}
-.center-label {
-    text-align: center;
-}
-.input-container {
-    display: flex;
-    align-items: center;
-}
-.unit-label {
-    margin-left: 5px;
-}
+/* Los estilos originales para .rounded-table, .center-label, .input-container y .unit-label ya están definidos en tu CSS */
